@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="TDD inleiding">
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningTest.java" afterDir="false" />
+    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="@BeforeEach">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Jaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Jaar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/JaarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/JaarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RekeningTest">
+  <component name="RunManager" selected="JUnit.JaarTest">
     <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="theorie" />
       <extension name="coverage">
@@ -123,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="theorie" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +135,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.theorie" />
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor400IsEenSchrikkelJaar" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JaarTest" />
         <item itemvalue="JUnit.RekeningTest" />
         <item itemvalue="JUnit.ConverterTest" />
         <item itemvalue="JUnit.ConverterTest.zeroInchIs0Centimeters" />
         <item itemvalue="JUnit.ConverterTest.eenInchIs2Komma54Centimeters" />
-        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710245152710</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="@BeforeEach">
+      <option name="closed" value="true" />
+      <created>1710246723883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710246723883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +240,7 @@
     <MESSAGE value="Inleiding" />
     <MESSAGE value="BigDecimal" />
     <MESSAGE value="TDD inleiding" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD inleiding" />
+    <MESSAGE value="@BeforeEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="@BeforeEach" />
   </component>
 </project>
