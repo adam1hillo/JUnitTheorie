@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Jaar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/JaarTest.java" afterDir="false" />
+    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Inleiding">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/ConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/JaarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/JaarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ConverterTest.eenInchIs2Komma54Centimeters.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkelJaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar.executor": "Run",
     "JUnit.JaarTest.eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar.executor": "Run",
@@ -62,7 +64,54 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.JaarTest">
+  <component name="RunManager" selected="JUnit.ConverterTest">
+    <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.ConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest.eenInchIs2Komma54Centimeters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.ConverterTest" />
+      <option name="METHOD_NAME" value="eenInchIs2Komma54Centimeters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest.zeroInchIs0Centimeters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.ConverterTest" />
+      <option name="METHOD_NAME" value="zeroInchIs0Centimeters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="theorie" />
       <extension name="coverage">
@@ -74,22 +123,6 @@
       <option name="PACKAGE_NAME" value="be.vdab.theorie" />
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkelJaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor100IsGeenSchrikkelJaar" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,47 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JaarTest.toStringgeeftHetJaarAlsTekst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
-      <option name="METHOD_NAME" value="toStringgeeftHetJaarAlsTekst" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JaarTest" />
-        <item itemvalue="JUnit.JaarTest.eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar" />
-        <item itemvalue="JUnit.JaarTest.toStringgeeftHetJaarAlsTekst" />
-        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkelJaar" />
+        <item itemvalue="JUnit.ConverterTest" />
+        <item itemvalue="JUnit.ConverterTest.zeroInchIs0Centimeters" />
+        <item itemvalue="JUnit.ConverterTest.eenInchIs2Komma54Centimeters" />
         <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar" />
+        <item itemvalue="JUnit.JaarTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710230860165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inleiding">
+      <option name="closed" value="true" />
+      <created>1710236320911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710236320911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Inleiding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inleiding" />
   </component>
 </project>
