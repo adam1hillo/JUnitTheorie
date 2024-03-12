@@ -4,32 +4,154 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="" />
+    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Jaar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/JaarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adam1hillo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ef1de9d2-ab2c-4755-946b-5783f1546f42" />
+        <option name="url" value="https://github.com/adam1hillo/JUnitTheorie.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2da0IBA54uMw9ZuwAEwziD5P65s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkelJaar.executor": "Run",
+    "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar.executor": "Run",
+    "JUnit.JaarTest.eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar.executor": "Run",
+    "JUnit.JaarTest.executor": "Run",
+    "JUnit.JaarTest.toStringgeeftHetJaarAlsTekst.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.JaarTest">
+    <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkelJaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
+      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor100IsGeenSchrikkelJaar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
+      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor400IsEenSchrikkelJaar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaarTest.eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
+      <option name="METHOD_NAME" value="eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaarTest.toStringgeeftHetJaarAlsTekst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.vdab.theorie" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.JaarTest" />
+      <option name="METHOD_NAME" value="toStringgeeftHetJaarAlsTekst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JaarTest" />
+        <item itemvalue="JUnit.JaarTest.eenJaarNietDeelbaarDoor4IsGeenSchrikkelJaar" />
+        <item itemvalue="JUnit.JaarTest.toStringgeeftHetJaarAlsTekst" />
+        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkelJaar" />
+        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkelJaar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +161,30 @@
       <option name="presentableId" value="Default" />
       <updated>1710230801567</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1710230860165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710230860165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
