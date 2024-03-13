@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekeningnummer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Statistiek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningnummerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/StatistiekTest.java" afterDir="false" />
+    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Grenswaarden en extreme waarden">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningnummerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/RekeningnummerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RekeningTest">
+  <component name="RunManager" selected="JUnit.RekeningnummerTest">
     <configuration name="RekeningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="theorie" />
       <extension name="coverage">
@@ -169,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RekeningnummerTest" />
         <item itemvalue="JUnit.RekeningTest" />
         <item itemvalue="JUnit.StatistiekTest" />
-        <item itemvalue="JUnit.RekeningnummerTest" />
         <item itemvalue="JUnit.RekeningnummerTest.BE02063588295840IsCorrect" />
         <item itemvalue="JUnit.RekeningTest.stortMetNullKanNiet" />
       </list>
@@ -249,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710250103403</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Grenswaarden en extreme waarden">
+      <option name="closed" value="true" />
+      <created>1710323312931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710323312931</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +273,7 @@
     <MESSAGE value="@BeforeEach" />
     <MESSAGE value="equals(), hashCode()" />
     <MESSAGE value="Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
+    <MESSAGE value="Grenswaarden en extreme waarden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grenswaarden en extreme waarden" />
   </component>
 </project>
