@@ -11,6 +11,7 @@ import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException
 
 class RekeningTest {
     private Rekening rekening;
+    private static final BigDecimal TWEE = BigDecimal.valueOf(2);
 
     @BeforeEach
     void beforeEach() {
@@ -48,6 +49,30 @@ class RekeningTest {
     void stortMetNullKanNiet() {
         assertThatNullPointerException().isThrownBy(
                 () -> rekening.stort(null)
+        );
+    }
+    @Test
+    void eenNieuweRekeningGeeftGeenStortingen() {
+        assertThat(rekening.getStortingen()).isEmpty();
+    }
+    @Test
+    void nadatJe10€StortIsErEenStortingVan10€() {
+        rekening.stort(BigDecimal.TEN);
+        assertThat(rekening.getStortingen()).containsOnly(BigDecimal.TEN);
+    }
+    @Test
+    void nadatJe10€En1€StortZijnErStortingen10€En1€() {
+        rekening.stort(BigDecimal.TEN);
+        rekening.stort(BigDecimal.ONE);
+        assertThat(rekening.getStortingen()).containsExactly(BigDecimal.TEN, BigDecimal.ONE);
+    }
+    @Test
+    void nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€2€10€() {
+        rekening.stort(BigDecimal.TEN);
+        rekening.stort(BigDecimal.ONE);
+        rekening.stort(TWEE);
+        assertThat(rekening.getStortingnenGesorteerd()).isSorted().containsExactly(
+                BigDecimal.ONE, TWEE, BigDecimal.TEN
         );
     }
 }
