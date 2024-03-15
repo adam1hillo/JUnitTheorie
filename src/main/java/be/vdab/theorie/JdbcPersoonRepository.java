@@ -21,8 +21,8 @@ class JdbcPersoonRepository extends AbstractRepository implements PersoonReposit
             for (var result = statement.executeQuery(); result.next();) {
                 weddes.add(result.getBigDecimal("wedde"));
             }
+            connection.commit();
             return weddes;
-
         } catch (SQLException ex) {
             throw new RepositoryException(ex);
         }
