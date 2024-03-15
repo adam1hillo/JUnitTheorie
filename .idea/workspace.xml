@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Stub">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cc214689-a9ad-4036-a2d1-1888289191f2" name="Changes" comment="Mock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/AbstractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/CsvPersoonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/JdbcPersoonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/PersoonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/vdab/theorie/PersoonServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +23,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -85,6 +90,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="be.vdab.theorie" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="be.vdab.theorie" />
@@ -276,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710420686069</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Mock">
+      <option name="closed" value="true" />
+      <created>1710427471120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710427471120</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +318,8 @@
     <MESSAGE value="Parameterized test" />
     <MESSAGE value="Dependency injection" />
     <MESSAGE value="Stub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stub" />
+    <MESSAGE value="Mock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mock" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/theorie$All_in_theorie.ic" NAME="All in theorie Coverage Results" MODIFIED="1710402767341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
